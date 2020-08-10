@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_learn_new_topic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.purnota.pending.LearnNewTopic">
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Programming Topics" android:textAppearance="@android:style/TextAppearance" android:background="#bcc7d8" android:textStyle="bold" android:padding="5dp" android:textSize="20sp" android:gravity="center" android:id="@+id/article_subheading"/>
+
+
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#b3b3ff" android:layout_below="@id/article_subheading">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical">
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Introduction to Programming" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn1" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Mathematics and Number Theory" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn2" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Searching and Sorting" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn3" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Data Structures" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn4" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Some Greedy Techniques" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn5" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Recursion and Dynamic Programming" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn6" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Graphs" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn7" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Geometry" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn8" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Game Theory" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn9" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="String related Data Structure and Algorithms" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn10" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Some Other Techniques" android:textStyle="bold" android:textSize="18dp" android:gravity="center_horizontal" android:id="@+id/btn11" android:textAllCaps="false"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

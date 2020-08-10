@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_english"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:background="#b3b3ff"
+    tools:context="com.example.purnota.pending.English">
+
+    <TextView android:layout_height="wrap_content"
+
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="Some English Resources On CP"
+        android:padding="5dp" android:gravity="center"
+        android:background="#bcc7d8" android:id="@+id/article_subheading"/>
+
+
+    <ScrollView android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#b3b3ff"
+        android:layout_below="@id/article_subheading">
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:padding="10dp"
+            android:background="#b3b3ff"
+            android:orientation="vertical">
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Binary and Ternary Search"
+                android:id="@+id/link1" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textStyle="bold" android:textSize="16sp"
+                android:text="Dynamic Programming"
+                android:id="@+id/link2" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textStyle="bold" android:textSize="16sp"
+                android:text="Flow" android:id="@+id/link3"
+                android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Game Theory" android:id="@+id/link4" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textStyle="bold" android:textSize="16sp"
+                android:text="Graphs" android:id="@+id/link5" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Greedy" android:id="@+id/link6" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Maths" android:id="@+id/link7" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Matrix Exponentiation" android:id="@+id/link8" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Miscellaneous" android:id="@+id/link9" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Prefix and Suffix Trees" android:id="@+id/link10" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Segment Trees" android:id="@+id/link11" android:textAllCaps="false"/>
+
+            <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:textStyle="bold"
+                android:textSize="16sp" android:text="Trees" android:id="@+id/link12" android:textAllCaps="false"/>
+
+
+                 </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

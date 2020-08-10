@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_topic_src_nsort"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.purnota.pending.TopicSrcNSortActivity">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Searching and Sorting" android:textAppearance="@android:style/TextAppearance" android:background="#bcc7d8" android:textStyle="bold" android:padding="5dp" android:textSize="20sp" android:gravity="center" android:id="@+id/article_subheading"/>
+
+
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#dbd7ed" android:layout_below="@id/article_subheading">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="This section contains the following topics:\n\n Sorting\n\n Bubble Sort\n\n Counting Sort\n\n Merge Sort\n\n Quick Sort\n\n Selection Sort\n\n Insertion Sort\n\n Heap Sort\n\n Searching\n\n Linear Search\n\n Binary Search\n\n Ternary Search\n\n " android:textStyle="bold" android:textSize="16sp"/>
+
+    <View android:layout_height="2dp" android:layout_width="fill_parent" android:background="#177dea"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="\n"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/sort" android:textSize="14sp" android:id="@+id/sort"/>
+
+    <View android:layout_height="2dp" android:layout_width="fill_parent" android:background="#177dea"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="\nThe following topics will be added soon:\n\n Shell Sort\n\n Radix Sort\n\n Bucket Sort\n\n " android:textStyle="bold" android:textSize="16sp"> </TextView>
+
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

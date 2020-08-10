@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contest_site"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.purnota.pending.ContestSite">
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Problem Solving Sites" android:textAppearance="@android:style/TextAppearance" android:background="#bcc7d8" android:textStyle="bold" android:padding="5dp" android:textSize="20sp" android:gravity="center" android:id="@+id/article_subheading"/>
+
+
+    -<ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#b3b3ff" android:layout_below="@id/article_subheading">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical">
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/codeforces" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link1" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/codechef" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link2" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/devskill" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link3" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/hackerrank" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link4" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/hackerearth" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link5" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/cs_academy" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link6" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/at_coder" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link7" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/uva_online_judge" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link8" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/uri_online_judge" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link9" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/a2_online_judge" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link10" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/light_online_judge" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link11" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/sphere_online_judge" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link12" android:textAllCaps="false"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/timus_online_judge" android:textStyle="bold" android:textSize="16sp" android:id="@+id/link13" android:textAllCaps="false"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
+
+
+</RelativeLayout>

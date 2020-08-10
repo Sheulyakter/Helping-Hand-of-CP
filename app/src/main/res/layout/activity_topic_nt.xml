@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_topic_nt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.purnota.pending.TopicNTActivity">
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Mathematics and Number Theory" android:textAppearance="@android:style/TextAppearance" android:background="#bcc7d8" android:textStyle="bold" android:padding="5dp" android:textSize="20sp" android:gravity="center" android:id="@+id/article_subheading"/>
+
+
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#dbd7ed" android:layout_below="@id/article_subheading">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="This section contains the following topics:\n\n Prime Number\n\n Finding Divisor\n\n Modular Arithmetic\n\n Combinatorics\n\n Probability\n\n" android:textStyle="bold" android:textSize="16sp"> </TextView>
+
+    <View android:layout_height="2dp" android:layout_width="fill_parent" android:background="#177dea"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/ntintro" android:textSize="14sp" android:id="@+id/ntintro"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Prime Number" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/primelinks" android:textSize="14sp" android:id="@+id/primeLinks"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Finding Divisor" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/divisor" android:textSize="14sp" android:id="@+id/divisor"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Modular Arithmetic" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/modular_arithmetic" android:textSize="14sp" android:id="@+id/modular"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Combinatorics" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/comb" android:textSize="14sp" android:id="@+id/combinatorics"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Euclidean Algorithm" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/euclid" android:textSize="14sp" android:id="@+id/Euclid"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Probability" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/prob" android:textSize="14sp" android:id="@+id/prob"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Others" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/nt_other" android:textSize="14sp" android:id="@+id/nt_other"/>
+
+    <View android:layout_height="2dp" android:layout_width="fill_parent" android:background="#177dea"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="\nThe following topics will be added soon:\n\n Euclid, Extended euclid\n\n Fibonacci\n\n Factorial\n\n Josephus Problem\n\n Farey Sequence, Stern-brocot Tree\n\n Catalan numbers\n\n Burnside's lemma/circular permutation\n\n Chinese Remainder Theorem\n\n Gaussian Elmination method\n\n Dilworth's Theorem\n\n Determinant of a matrix\n\n RSA public key crypto System\n\n " android:textStyle="bold" android:textSize="16sp"> </TextView>
+
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

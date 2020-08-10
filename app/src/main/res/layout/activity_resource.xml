@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resource"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:background="@drawable/backgroundblack"
+    tools:context="com.example.purnota.pending.Resource">
+
+    <Button
+        android:layout_marginTop="180sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bangla"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bangla_resource"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/english"
+        android:layout_below="@id/bangla"
+        android:layout_centerHorizontal="true"
+        android:text="@string/english_resource"/>
+
+
+
+</RelativeLayout>

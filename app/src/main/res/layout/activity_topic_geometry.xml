@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_topic_geometry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.purnota.pending.TopicGeometryActivity">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Geometry" android:textAppearance="@android:style/TextAppearance" android:background="#bcc7d8" android:textStyle="bold" android:padding="5dp" android:textSize="20sp" android:gravity="center" android:id="@+id/article_subheading"/>
+
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#dbd7ed" android:layout_below="@id/article_subheading">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical">
+
+    <View android:layout_height="2dp" android:layout_width="fill_parent" android:background="#177dea"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="\nThe following topics will be added soon:\n\n Pick's Theorem\n\n Convex Hull\n\n Line Intersection\n\n Point in a Polygon\n\n Area of a Polygon\n\n Line Sweeping\n\n Polygon Intersection\n\n Closest Pair\n\n " android:textStyle="bold" android:textSize="16sp"> </TextView>
+
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

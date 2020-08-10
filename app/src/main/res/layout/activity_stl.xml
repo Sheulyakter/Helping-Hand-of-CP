@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    tools:context="com.example.purnota.pending.STLActivity">
+
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Introduction to Programming" android:textAppearance="@android:style/TextAppearance" android:background="#bcc7d8" android:textStyle="bold" android:padding="5dp" android:textSize="20sp" android:gravity="center" android:id="@+id/article_subheading"/>
+
+
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#dbd7ed" android:layout_below="@id/article_subheading">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="10dp" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="This section contains the following topics:\n\n Starter's Guide\n\n Complexity Analysis\n\n STL Resources\n\n" android:textStyle="bold" android:textSize="16sp"> </TextView>
+
+    <View android:layout_height="2dp" android:layout_width="fill_parent" android:background="#177dea"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/starters_guide" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:id="@+id/big" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="If you are new to Competitive Programming then this section is for you. Please have a look at the following links. \n" android:textSize="14sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/beginners_guide" android:textSize="14sp" android:id="@+id/biginnerLinks"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/complexity_analysis" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:id="@+id/complexity" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Complexity is a term that must be kept in mind while coding. There are two types of complexity. Time complexity and Space complexity. Here is some links about complexity analysis.\n" android:textSize="14sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/complexitylinks" android:textSize="14sp" android:id="@+id/compxityLinks"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/stl_resources" android:textStyle="bold" android:textSize="20sp" android:gravity="center" android:textAllCaps="false"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="STL is a very important term for Competitive Programmers. It stands for Standard Template Library. It contain many important and useful Data Structures and Functions. These Data Structures can be invoked easily to solve problems using STL. Here are some links explaining STL.\n" android:textSize="14sp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/stl" android:textSize="14sp" android:id="@+id/stlLinks"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>
